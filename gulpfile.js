@@ -8,4 +8,5 @@ const gulp = require('gulp')
 
 assemblyVersion.setAssemblyInformationFilePath(`${__dirname}/wsTest/Properties/AssemblyInfo.cs`)
 assemblyVersion.init(gulp);
-assemblyVersion.historyTags()
+
+

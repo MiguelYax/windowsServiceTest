@@ -9,6 +9,6 @@
   "author": "Miguel Yax <mig_dj@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "assembly-version": "0.0.3"
+    "assembly-version": "^0.0.4"
   }
 }
