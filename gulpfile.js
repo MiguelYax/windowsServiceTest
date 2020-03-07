@@ -5,8 +5,9 @@
  */
 const assemblyVersion = require('assembly-version');
 const gulp = require('gulp')
+const path = require('path')
 
-assemblyVersion.setAssemblyInformationFilePath(`${__dirname}/wsTest/Properties/AssemblyInfo.cs`)
+assemblyVersion.setAssemblyInformationFilePath(path.join(__dirname, '/wsTest/Properties/AssemblyInfo.cs'))
 assemblyVersion.init(gulp);
 
 assemblyVersion.changeVersion("interface", "", msg => {
